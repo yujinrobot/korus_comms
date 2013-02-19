@@ -1,10 +1,14 @@
+# Desired gripper angle
 float64 gripper_angle
 
 ---
 
+# Human-readable error description
 string error_message
+# Code of the error above
 int8 error_code
 
 ---
 
+# Current state of move gripper
 string process_state

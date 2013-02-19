@@ -1,10 +1,14 @@
+# Where the centre of the gripper should be moved to
 geometry_msgs/PoseStamped goal_pose
 
 ---
 
+# Human-readable error description
 string error_message
+# Code of the error above
 int8 error_code
 
 ---
 
+# Current state of move arm
 string process_state
