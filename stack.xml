@@ -5,4 +5,6 @@
   <review status="unreviewed" notes=""/>
   <url>http://ros.org/wiki/korus_comms</url>
   <depend stack="ros" />
+  <depend stack="common_msgs" /> <!-- geometry_msgs, actionlib_msgs -->
+  <depend stack="ros_comm" /> <!-- std_msgs -->
 </stack>

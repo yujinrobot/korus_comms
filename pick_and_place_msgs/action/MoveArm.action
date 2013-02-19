@@ -1,0 +1,10 @@
+geometry_msgs/PoseStamped goal_pose
+
+---
+
+string error_message
+int8 error_code
+
+---
+
+string process_state

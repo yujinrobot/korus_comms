@@ -1,0 +1,10 @@
+float64 gripper_angle
+
+---
+
+string error_message
+int8 error_code
+
+---
+
+string process_state

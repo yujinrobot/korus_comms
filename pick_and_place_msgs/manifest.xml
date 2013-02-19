@@ -10,7 +10,7 @@
   <url>http://ros.org/wiki/pick_and_place_msgs</url>
   <depend package="std_msgs"/>
   <depend package="geometry_msgs"/>
-
+  <depend package="actionlib_msgs"/>
 </package>
 
 
