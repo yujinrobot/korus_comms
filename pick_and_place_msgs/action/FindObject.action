@@ -1,15 +1,16 @@
 # Rough position of table
 # That is where the 3D sensor will look for the table and objects on top of it 
+# Optional; won't move head, if empty
 geometry_msgs/PointStamped table_position
 
 ---
 
-# Pose of the recognised object
-geometry_msgs/PoseStamped object_pose
-# Name of the recognised object
-string object_name
-# Type of the recognised object
-string object_type
+# Poses of the recognised objects
+geometry_msgs/PoseStamped[] object_pose
+# Names of the recognised objects
+string[] object_names
+# Types of the recognised objects
+string[] object_types
 # Human-readable error description
 string error_message
 # Code of the error above
