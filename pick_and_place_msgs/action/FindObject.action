@@ -6,7 +6,7 @@ geometry_msgs/PointStamped table_position
 ---
 
 # Poses of the recognised objects
-geometry_msgs/PoseStamped[] object_pose
+geometry_msgs/PoseStamped[] object_poses
 # Names of the recognised objects
 string[] object_names
 # Types of the recognised objects
