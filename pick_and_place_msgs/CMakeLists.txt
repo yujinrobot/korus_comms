@@ -12,7 +12,8 @@ add_action_files(DIRECTORY action
                  FILES     FindObject.action
                            MoveArm.action
                            MoveGripper.action
-                           PickObject.action)
+                           PickObject.action
+                           PlaceObject.action)
 
 generate_messages(DEPENDENCIES actionlib_msgs
                                geometry_msgs
