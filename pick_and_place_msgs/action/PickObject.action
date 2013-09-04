@@ -1,0 +1,17 @@
+# object name, if empty object with highest recognition confidence will be picked up
+string object_name
+# object pose, necessary for now until a solution is found to retrieve information about added objects in the scene
+geometry_msgs/PoseStamped object_pose
+
+---
+
+# Human-readable error description
+string error_message
+
+# Code of the error above
+int8 error_code
+
+---
+
+# Current state of object recognition 
+string process_state

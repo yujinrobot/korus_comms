@@ -11,7 +11,8 @@ find_package(catkin REQUIRED COMPONENTS actionlib_msgs
 add_action_files(DIRECTORY action
                  FILES     FindObject.action
                            MoveArm.action
-                           MoveGripper.action)
+                           MoveGripper.action
+                           PickObject.action)
 
 generate_messages(DEPENDENCIES actionlib_msgs
                                geometry_msgs

@@ -2,6 +2,10 @@
 # That is where the 3D sensor will look for the table and objects on top of it 
 # Optional; won't move head, if empty
 geometry_msgs/PointStamped table_position
+# Look around to find objects
+bool look_around
+# Min. confidence for a recognised object being considered valid
+float64 min_confidence
 
 ---
 
@@ -11,6 +15,8 @@ geometry_msgs/PoseStamped[] object_poses
 string[] object_names
 # Types of the recognised objects
 string[] object_types
+# Confidences about the recognised objects
+float64[] object_confidences
 # Human-readable error description
 string error_message
 # Code of the error above
